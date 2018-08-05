@@ -91,10 +91,6 @@ def crawlHero(url):
     return BestVersus, WorstVersus, BestTeammate
 
 if __name__ == '__main__':
-    url = 'http://www.dotamax.com/hero/rate'
+    url = 'http://www.dotamax.com/player/hero/'
+
     crawl(url)
-
-
-#/html/body/div[1]/div[8]/div[2]/div/div[1]/section[5]/article/table/tbody/tr[1]/td[1]/div/a/img
-#/html/body/div[1]/div[8]/div[2]/div/div[1]/section[5]/article/table/tbody/tr[2]/td[1]/div/a/img
-#/html/body/div[1]/div[8]/div[2]/div/div[1]/section[5]/article/table/tbody/tr[2]/td[1]/div/a
